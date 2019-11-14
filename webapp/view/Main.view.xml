@@ -1,0 +1,14 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:t="sap.ui.table"
+	controllerName="sap.test.practice.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Fragment">
+				<content id="con">
+						<l:VerticalLayout id="idCon">
+								<Button text="Show Table Dynamically" press="onPress"/>
+						</l:VerticalLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
